@@ -11,6 +11,6 @@ class ClassRoomController extends Controller
     {
         # code...
         $classes = ClassRoom::all();
-        return view('classes', compact('classes'));
+        return view('admin.class', compact('classes'));
     }
 }
